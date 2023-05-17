@@ -1,7 +1,8 @@
-import "./globals.css";
+"use client";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@mui/material";
 import theme from "@/theme/light-theme";
+import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
